@@ -5,17 +5,17 @@
         <div class="max-w-7xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-2 gap-12 items-center">
             <div>
                 <span class="inline-block bg-white/15 border border-white/20 text-white text-sm px-4 py-2 rounded-full mb-5">
-                    Layanan Digital Cepat & Praktis
+                    Layanan Digital & Teknisi Cepat
                 </span>
 
                 <h2 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
-                    Solusi Pulsa, PPOB, dan Pembayaran Online dalam Satu Tempat
+                    Solusi Pulsa, PPOB, WiFi, CCTV, dan Pembayaran Online dalam Satu Tempat
                 </h2>
 
                 <p class="text-lg text-red-50 leading-8 mb-8">
-                    {{ $company['name'] }} hadir untuk membantu kebutuhan transaksi digital Anda,
-                    mulai dari isi pulsa, paket data, token listrik, pembayaran tagihan,
-                    top up e-wallet, hingga pembayaran online seperti Shopee dan layanan marketplace lainnya.
+                    {{ $company['name'] }} hadir untuk membantu kebutuhan transaksi digital dan layanan teknis Anda,
+                    mulai dari isi pulsa, paket data, token listrik, pembayaran tagihan, top up e-wallet,
+                    pembayaran online seperti Shopee, jasa internet WiFi, pemasangan CCTV, hingga instalasi jaringan.
                 </p>
 
                 <div class="flex flex-wrap gap-4">
@@ -36,8 +36,8 @@
                         <p class="mt-2">Proses cepat</p>
                     </div>
                     <div class="bg-white/10 rounded-2xl px-4 py-4 border border-white/10">
-                        <p class="font-bold text-xl">🔒</p>
-                        <p class="mt-2">Transaksi aman</p>
+                        <p class="font-bold text-xl">🛠️</p>
+                        <p class="mt-2">Teknisi siap bantu</p>
                     </div>
                     <div class="bg-white/10 rounded-2xl px-4 py-4 border border-white/10">
                         <p class="font-bold text-xl">💬</p>
@@ -51,8 +51,8 @@
                     <div class="mb-6">
                         <h3 class="text-2xl font-bold text-brandRed mb-2">Tentang Kami</h3>
                         <p class="text-gray-600 leading-7">
-                            Kami melayani berbagai kebutuhan transaksi digital masyarakat dengan sistem yang praktis,
-                            efisien, dan mudah diakses. Cocok untuk kebutuhan pribadi, keluarga, maupun usaha.
+                            Kami melayani berbagai kebutuhan transaksi digital dan layanan teknis dengan sistem yang praktis,
+                            efisien, dan mudah diakses. Cocok untuk kebutuhan pribadi, rumah tangga, toko, kantor, maupun usaha.
                         </p>
                     </div>
 
@@ -66,18 +66,18 @@
                         </div>
 
                         <div class="flex items-start gap-3 p-4 rounded-2xl bg-gray-50 border border-gray-100">
-                            <span class="text-2xl">💡</span>
+                            <span class="text-2xl">📶</span>
                             <div>
-                                <h4 class="font-bold">Token & Tagihan</h4>
-                                <p class="text-sm text-gray-600">Mudah untuk pembelian token dan pembayaran tagihan rutin.</p>
+                                <h4 class="font-bold">Internet & Jaringan</h4>
+                                <p class="text-sm text-gray-600">Melayani internet WiFi, setting jaringan, dan maintenance.</p>
                             </div>
                         </div>
 
                         <div class="flex items-start gap-3 p-4 rounded-2xl bg-gray-50 border border-gray-100">
-                            <span class="text-2xl">🛒</span>
+                            <span class="text-2xl">📹</span>
                             <div>
-                                <h4 class="font-bold">Pembayaran Online</h4>
-                                <p class="text-sm text-gray-600">Membantu pembayaran digital termasuk marketplace seperti Shopee.</p>
+                                <h4 class="font-bold">CCTV & Keamanan</h4>
+                                <p class="text-sm text-gray-600">Pemasangan CCTV untuk rumah, toko, kantor, dan area usaha.</p>
                             </div>
                         </div>
                     </div>
@@ -94,10 +94,10 @@
             <div class="text-center max-w-3xl mx-auto mb-14">
                 <span class="text-brandRed font-semibold uppercase tracking-wider text-sm">Layanan Utama</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-3 mb-4">
-                    Layanan Digital yang Kami Sediakan
+                    Layanan yang Kami Sediakan
                 </h2>
                 <p class="text-gray-600 leading-7">
-                    Kami menyediakan berbagai layanan transaksi digital untuk memudahkan kebutuhan pembayaran Anda sehari-hari.
+                    Kami menyediakan berbagai layanan transaksi digital dan teknisi untuk memudahkan kebutuhan harian Anda.
                 </p>
             </div>
 
@@ -123,7 +123,7 @@
                     Cara Order Layanan
                 </h2>
                 <p class="text-gray-600 leading-7">
-                    Langkah transaksi dibuat sederhana agar pelanggan dapat melakukan pemesanan dengan mudah dan cepat.
+                    Langkah order dibuat sederhana agar pelanggan dapat melakukan pemesanan dengan mudah dan cepat.
                 </p>
             </div>
 
@@ -163,10 +163,10 @@
                 <div class="grid grid-cols-2 gap-4 text-sm">
                     <div class="bg-white/10 rounded-2xl p-4 border border-white/10">Pulsa Semua Operator</div>
                     <div class="bg-white/10 rounded-2xl p-4 border border-white/10">Paket Data Internet</div>
-                    <div class="bg-white/10 rounded-2xl p-4 border border-white/10">Token Listrik PLN</div>
-                    <div class="bg-white/10 rounded-2xl p-4 border border-white/10">Pembayaran BPJS</div>
-                    <div class="bg-white/10 rounded-2xl p-4 border border-white/10">Top Up E-Wallet</div>
-                    <div class="bg-white/10 rounded-2xl p-4 border border-white/10">Pembayaran Shopee</div>
+                    <div class="bg-white/10 rounded-2xl p-4 border border-white/10">Jasa Internet WiFi</div>
+                    <div class="bg-white/10 rounded-2xl p-4 border border-white/10">Jasa Pasang CCTV</div>
+                    <div class="bg-white/10 rounded-2xl p-4 border border-white/10">Maintenance Jaringan</div>
+                    <div class="bg-white/10 rounded-2xl p-4 border border-white/10">Pembayaran Online</div>
                 </div>
 
                 <a href="{{ $company['wa_link'] }}" target="_blank"
@@ -208,7 +208,7 @@
             </h2>
             <p class="text-red-100 text-lg leading-8 mb-8">
                 Hubungi {{ $company['name'] }} sekarang juga untuk layanan pulsa, pembayaran tagihan,
-                top up e-wallet, token listrik, dan pembayaran online lainnya.
+                top up e-wallet, token listrik, internet WiFi, CCTV, dan kebutuhan teknisi lainnya.
             </p>
 
             <a href="{{ $company['wa_link'] }}" target="_blank"

@@ -3,8 +3,8 @@
         <div>
             <h3 class="text-white text-2xl font-bold mb-3">{{ $company['name'] }}</h3>
             <p class="text-sm leading-7 text-gray-400">
-                Solusi layanan digital untuk kebutuhan pulsa, paket data, token listrik, pembayaran tagihan,
-                top up e-wallet, dan pembayaran online harian dengan pelayanan cepat dan terpercaya.
+                Solusi layanan digital dan teknisi untuk kebutuhan pulsa, paket data, token listrik, pembayaran tagihan,
+                top up e-wallet, pembayaran online, internet WiFi, CCTV, dan instalasi jaringan dengan pelayanan cepat dan terpercaya.
             </p>
         </div>
 
@@ -13,7 +13,7 @@
             <div class="space-y-2 text-sm text-gray-400">
                 <p><span class="text-white font-medium">WhatsApp:</span> {{ $company['phone'] }}</p>
                 <p><span class="text-white font-medium">Email:</span> {{ $company['email'] }}</p>
-                <p><span class="text-white font-medium">Alamat:</span> {{ $company['address'] }}</p>
+                <p><span class="text-white font-medium">Lokasi Offline:</span> {{ $company['address'] }}</p>
             </div>
         </div>
 

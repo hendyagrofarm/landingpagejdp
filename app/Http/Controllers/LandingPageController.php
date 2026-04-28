@@ -12,8 +12,8 @@ class LandingPageController extends Controller
             'name' => 'PT Java Digital Ponorogo',
             'phone' => '085156379282',
             'wa_link' => 'https://wa.me/6285156379282',
-            'email' => 'admin@javadigital.my.id',
-            'address' => 'Ponorogo, Jawa Timur, Indonesia',
+            'email' => 'admin@javadigitalponorogo.com',
+            'address' => 'Jl. Kamukten RT 002 RW 002 Desa Karangan Kecamatan Balong Kabupaten Ponorogo',
         ];
 
         $services = [
@@ -47,37 +47,62 @@ class LandingPageController extends Controller
                 'title' => 'Pembayaran Online',
                 'description' => 'Membantu pembayaran transaksi online seperti Shopee, marketplace, dan kebutuhan digital lainnya.',
             ],
+            [
+                'icon' => '📶',
+                'title' => 'Jasa Internet WiFi',
+                'description' => 'Melayani pemasangan internet WiFi rumah, toko, kantor, dan kebutuhan jaringan usaha.',
+            ],
+            [
+                'icon' => '📹',
+                'title' => 'Jasa Pasang CCTV',
+                'description' => 'Melayani pemasangan CCTV untuk rumah, toko, kantor, gudang, dan area usaha lainnya.',
+            ],
+            [
+                'icon' => '🛠️',
+                'title' => 'Maintenance Jaringan',
+                'description' => 'Perbaikan gangguan jaringan, setting ulang router, troubleshooting internet, dan perawatan berkala.',
+            ],
+            [
+                'icon' => '🖥️',
+                'title' => 'Instalasi Perangkat IT',
+                'description' => 'Pemasangan perangkat pendukung seperti switch, modem, router, access point, dan perlengkapan jaringan lainnya.',
+            ],
+            [
+                'icon' => '🏠',
+                'title' => 'Layanan Teknisi Rumah & Usaha',
+                'description' => 'Melayani kebutuhan teknisi untuk instalasi WiFi, CCTV, dan perangkat digital untuk rumah maupun tempat usaha.',
+            ],
         ];
 
         $advantages = [
             'Proses transaksi cepat dan praktis',
+            'Layanan digital dan teknisi dalam satu tempat',
+            'Melayani pemasangan WiFi dan CCTV',
+            'Cocok untuk kebutuhan pribadi, rumah, toko, dan kantor',
             'Pelayanan ramah dan responsif',
-            'Layanan digital lengkap dalam satu tempat',
-            'Cocok untuk kebutuhan pribadi maupun usaha',
-            'Siap melayani transaksi harian secara konsisten',
-            'Bisa digunakan sebagai solusi layanan PPOB dan pembayaran online',
+            'Siap melayani kebutuhan harian maupun instalasi lapangan',
         ];
 
         $steps = [
             [
                 'number' => '01',
                 'title' => 'Hubungi Admin',
-                'description' => 'Silakan hubungi admin melalui WhatsApp untuk menyampaikan kebutuhan transaksi Anda.',
+                'description' => 'Silakan hubungi admin melalui WhatsApp untuk menyampaikan kebutuhan transaksi atau jasa pemasangan Anda.',
             ],
             [
                 'number' => '02',
                 'title' => 'Pilih Layanan',
-                'description' => 'Pilih layanan yang Anda butuhkan, mulai dari pulsa, token, tagihan, hingga pembayaran online.',
+                'description' => 'Pilih layanan yang Anda butuhkan, mulai dari pulsa, pembayaran online, WiFi, CCTV, hingga instalasi jaringan.',
             ],
             [
                 'number' => '03',
-                'title' => 'Lakukan Pembayaran',
-                'description' => 'Admin akan memberikan detail pembayaran sesuai nominal layanan yang dipilih.',
+                'title' => 'Konfirmasi Kebutuhan',
+                'description' => 'Admin akan memberikan detail layanan, harga, dan jadwal pengerjaan sesuai kebutuhan Anda.',
             ],
             [
                 'number' => '04',
-                'title' => 'Transaksi Diproses',
-                'description' => 'Setelah pembayaran dikonfirmasi, pesanan Anda akan segera diproses dengan cepat.',
+                'title' => 'Layanan Diproses',
+                'description' => 'Setelah konfirmasi, transaksi atau jasa pemasangan akan segera diproses dengan cepat dan profesional.',
             ],
         ];
 
@@ -88,11 +113,11 @@ class LandingPageController extends Controller
             ],
             [
                 'name' => 'Dimas',
-                'message' => 'Beli pulsa dan token listrik di sini praktis. Cocok untuk langganan harian.',
+                'message' => 'Pemasangan internet dan setting jaringannya rapi. Sangat membantu untuk usaha saya.',
             ],
             [
                 'name' => 'Siti',
-                'message' => 'Top up e-wallet dan bayar tagihan jadi lebih mudah, tidak perlu repot keluar rumah.',
+                'message' => 'Pemasangan CCTV bagus dan hasilnya memuaskan. Cocok untuk rumah maupun toko.',
             ],
         ];
 

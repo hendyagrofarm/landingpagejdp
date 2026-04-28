@@ -5,7 +5,7 @@
                 <h1 class="text-xl md:text-2xl font-extrabold text-brandRed">
                     {{ $company['name'] }}
                 </h1>
-                <p class="text-sm text-gray-500">Pulsa • PPOB • Pembayaran Online</p>
+                <p class="text-sm text-gray-500">Pulsa • PPOB • WiFi • CCTV • Pembayaran Online</p>
             </a>
         </div>
 

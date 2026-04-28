@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $company['name'] ?? 'PT Java Digital Ponorogo' }}</title>
-    <meta name="description" content="Layanan pulsa, PPOB, token listrik, pembayaran tagihan, top up e-wallet, dan pembayaran online oleh PT Java Digital Ponorogo.">
+    <meta name="description" content="Layanan pulsa, PPOB, pembayaran tagihan, top up e-wallet, jasa internet WiFi, jasa pasang CCTV, dan instalasi jaringan oleh PT Java Digital Ponorogo.">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
